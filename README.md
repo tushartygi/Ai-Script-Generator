@@ -1,8 +1,16 @@
-# React + Vite
+AI Video Script Generator (React + Gemini API)
+Generate long‑form, human‑sounding video scripts from simple prompts using a React frontend and the Gemini API. Focused on a fast prompt→script flow, stable generations, and a clean, responsive UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+One‑click prompt → structured script (intro, sections, CTA)
 
-Currently, two official plugins are available:
+Prompt presets, tone/length controls, and copy/export actions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Robust error handling with retries and helpful messages
+
+Responsive Tailwind UI; keyboard‑friendly workflow
+
+Tech Stack
+Frontend: React, JavaScript, Tailwind CSS
+
+AI: Gemini API (official SDK/client)
